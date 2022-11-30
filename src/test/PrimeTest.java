@@ -23,7 +23,7 @@ class PrimeTest {
 	@Test
 	public void test4() {
 		Prime p = new Prime();
-		assertTrue(p.isPrime(4));
+		assertFalse(p.isPrime(4));
 	}
 	
 	@Test
@@ -35,6 +35,6 @@ class PrimeTest {
 	@Test
 	public void test6() {
 		Prime p = new Prime();
-		assertTrue(p.isPrime(6));
+		assertFalse(p.isPrime(6));
 	}
 }
